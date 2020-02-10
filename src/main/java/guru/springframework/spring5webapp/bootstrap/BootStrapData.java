@@ -40,7 +40,7 @@ public class BootStrapData implements CommandLineRunner {
         authorRepository.save(rod);
         bookRepository.save(noEJB);
 
-        Publisher penguin = new Publisher("Penguin", "1234 Cecil Street", "Minneapolis", "MN", 55068);
+        Publisher penguin = new Publisher("Penguin", "1234 Cecil Street", "Minneapolis", "MN", 55122);
         publisherRepository.save(penguin);
 
         System.out.println("Started in Bootstrap");
